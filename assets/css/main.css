@@ -1725,11 +1725,11 @@ input, select, textarea {
 		
 		.dropdown:hover .dropdown-content {display: block;}
 		
-		@media(hover: hover) and (pointer: fine) {
-    nav a:hover {
-        background: yellow;
-    }
+		body.nontouch nav a:hover {
+    background: yellow;
 }
+		
+
 /* Image */
 
 	.image {
