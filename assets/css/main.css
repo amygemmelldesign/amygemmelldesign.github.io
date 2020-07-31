@@ -1724,7 +1724,8 @@ input, select, textarea {
 		}
 		
 		.dropdown:hover .dropdown-content {display: block;}
-
+		
+		@media(hover: hover) and (pointer: fine) {}
 /* Image */
 
 	.image {
