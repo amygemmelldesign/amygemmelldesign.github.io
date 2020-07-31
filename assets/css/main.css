@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+html{
+	border: 20px solid white;
+}
+
 /* Basic */
 
 	html {
@@ -1690,7 +1694,7 @@ input, select, textarea {
 		
 		
 		.dropbtn {
-  		background-color: #3498DB;
+  		background-color: rgba(255, 148, 81, 0.85);
   		color: white;
  		 padding: 16px;
   		font-size: 16px;
@@ -1699,7 +1703,7 @@ input, select, textarea {
 		}
 
 		.dropbtn:hover, .dropbtn:focus {
- 		 background-color: #2980B9;
+ 		 background-color: #FD945F;
 		}
 
 		.dropdown {
@@ -1708,27 +1712,37 @@ input, select, textarea {
 		}
 
 		.dropdown-content {
-  		display: none;
+		display: none;
   		position: absolute;
-  		background-color: #f1f1f1;
+  		background-color: rgba(255, 148, 81, 0.85);
   		min-width: 160px;
   		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   		z-index: 1;
+		border-radius: 16px;
 		}
 
 		.dropdown-content a {
-  		color: black;
+  		color: white;
  		 padding: 12px 16px;
  		 text-decoration: none;
   		display: block;
+		font size: 16px;
 		}
+		
 		
 		.dropdown:hover .dropdown-content {display: block;}
 		
-		body.nontouch nav a:hover {
-    background: yellow;
-}
-		
+		.dropdown-content a:hover {
+		background-color: #FD945F;
+		border-radius: 16px;
+		}
+
+		.dropdown-menu-center {		
+		right: auto;
+		left: 50%;
+		-webkit-transform: translate(-50%, 0);
+		-o-transform: translate(-50%, 0);
+		transform: translate(-50%, 0);}
 
 /* Image */
 
